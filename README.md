@@ -2,7 +2,7 @@
 
 支持 LabVIEW Provider 机制的实现。
 
-![Tempate](Documentation\main.png)
+![Tempate](Documentation/main.png)
 
 Steps:
 
