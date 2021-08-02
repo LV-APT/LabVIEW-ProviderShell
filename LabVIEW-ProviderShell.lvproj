@@ -80,6 +80,10 @@
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
+			<Item Name="Compare.vi" Type="VI" URL="../LabVIEW-ProviderShell/LvProviderShellHelper/Compare.vi"/>
+			<Item Name="setUp.vi" Type="VI" URL="../LabVIEW-ProviderShell/LvProviderShellHelper/setUp.vi"/>
+			<Item Name="SyncInputs.vi" Type="VI" URL="../LabVIEW-ProviderShell/LvProviderShellHelper/SyncInputs.vi"/>
+			<Item Name="tearDown.vi" Type="VI" URL="../LabVIEW-ProviderShell/LvProviderShellHelper/tearDown.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
