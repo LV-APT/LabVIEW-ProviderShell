@@ -1,11 +1,18 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Library LVVersion="19008000">
-	<Property Name="NI.Lib.Icon" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!(^!!!*Q(C=\&gt;8"&lt;2MR%!813:"$A*T51;!7JA7VI";G"6V^6!P4AFJ1#^/#7F!,TN/'-(++=IC2(-TVS+O`80+:3[QDNP9VYEO]0GP@@NM_LD_\`K4&amp;2`NI`\;^0.WE\\ZH0]8D2;2'N3K6]:DK&gt;?1D(`H)2T\SFL?]Z3VP?=N,8P+3F\TE*5^ZSF/?]J3H@$PE)1^ZS*('Z'/C-?A99(2'C@%R0--T0-0D;QT0]!T0]!S0,D%]QT-]QT-]&lt;IPB':\B':\B-&gt;1GG?W1]QS0Y;.ZGK&gt;ZGK&gt;Z4"H.UQ"NMD:Q'Q1DWM6WUDT.UTR/IXG;JXG;JXF=DO:JHO:JHO:RS\9KP7E?BZT(-&amp;%]R6-]R6-]BI\C+:\C+:\C-6U54`%52*GQ$)Y1Z;&lt;3I8QJHO,R+YKH?)KH?)L(J?U*V&lt;9S$]XDE0-E4`)E4`)EDS%C?:)H?:)H?1Q&lt;S:-]S:-]S7/K3*\E3:Y%3:/;0N*A[=&lt;5+18*YW@&lt;,&lt;E^J&gt;YEO2U2;`0'WJ3R.FOM422L=]2[[,%?:KS(&amp;'PR9SVKL-7+N1CR`LB9[&amp;C97*0%OPH2-?Y_&lt;_KK,OKM4OKI$GKP&gt;I^&lt;`X,(_`U?N^MNLN&gt;L8#[8/*`0=4K&gt;YHA]RO&amp;QC0V_(\P&gt;\OUV].XR^E,Y_6Z[=@YH^5\`3`_$&gt;W.]DF`(N59`!/&lt;!-PQ!!!!!</Property>
+	<Property Name="EndevoGOOP_ClassBodyIcon" Type="Str">Actor</Property>
+	<Property Name="EndevoGOOP_ColorFrame" Type="UInt">0</Property>
+	<Property Name="EndevoGOOP_ColorHeader" Type="UInt">16757617</Property>
+	<Property Name="EndevoGOOP_ColorPrivate" Type="UInt">16711680</Property>
+	<Property Name="EndevoGOOP_ColorPublic" Type="UInt">16754801</Property>
+	<Property Name="EndevoGOOP_ColorTextBody" Type="UInt">0</Property>
+	<Property Name="EndevoGOOP_ColorTextHeader" Type="UInt">0</Property>
+	<Property Name="EndevoGOOP_FrameThickness" Type="UInt">2</Property>
+	<Property Name="NI.Lib.Icon" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!*#!!!*Q(C=\&gt;7\&lt;2N"%-&lt;RTY^!&amp;^)6#!Q*:^-#7W!,UQ*4BUQ6#6/#$_[!C1O9X)(!B+%#*CS!`O^K*"'3)2#Q#=A!&gt;\6]@0P[;?^UEHKZED\L].&gt;F?+-]DOCDWPN$@5D[4_P_=RWK_X(_C`[D_=0RH.@TKX^Y.N4_QYH_NYIOZ6,_\`,NV,`U]R%_K$W);%E,GN.-&lt;=N$EC&gt;ZEC&gt;ZEC&gt;ZE!&gt;ZE!&gt;ZE!?ZETOZETOZETOZE2OZE2OZE2NZL_1C&amp;\H))37&lt;*RMFCS9,*)/B+(F*0)EH]31?PCLR**\%EXA3$U/5?"*0YEE]C9&gt;J3DS**`%EHM4$5FW3P:,D34QML]!4?!*0Y!E]&lt;+H!%Q##T9+&amp;AU6A+/A-0A3?Q".Y_+D!%XA#4_!*0(1L]!3?Q".Y!A^4_KF%V\2+DI&gt;FZ(A=D_.R0)[(J?6Y()`D=4S/B_XE?"S0AX!W&gt;";()'?3-]$ZYHA=$W^S0)\(]4A?RU.8PU,?4[:J7C8(9XA-D_%R0);(*72Y$)`B-4S'BW6F?!S0Y4%]BI?N:(A-D_%R)-;G&lt;#^D-7/C-=A)$!]``7[R@J7C3[R8K7Z?V5WJONF5.Z(KZF"&gt;&gt;.8&amp;6&amp;UEV?'L$F6V7+J$50VS+L1+I^J%.&lt;E.V)\8$7V.'WELWJ+WI-VJ5^KE4@X(!X?\H4;&lt;D&gt;&lt;LN=:RV'KVUH+ZV'+RU(Q_VX1[V71S?8I-8&amp;/@(AD0T[7@UK@^FR^X^_.YOZ_.&gt;^PPM^PNT&gt;&gt;@,4`T`_"X]'T52RWPTRH^"PZ=EI-!!!!!</Property>
 	<Property Name="NI.Lib.SourceVersion" Type="Int">419463168</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
-	<Item Name="_support" Type="Folder">
-		<Item Name="fpMgr.lvclass" Type="LVClass" URL="../_support/fpMgr/fpMgr.lvclass"/>
-	</Item>
-	<Item Name="Open ProviderVI Reference.vi" Type="VI" URL="../Open ProviderVI Reference.vi"/>
+	<Property Name="NI.SortType" Type="Int">3</Property>
+	<Item Name="ProviderShellTemplate.vit" Type="VI" URL="../ProviderShellTemplate.vit"/>
+	<Item Name="LvProviderShellHelper.lvclass" Type="LVClass" URL="../LvProviderShellHelper/LvProviderShellHelper.lvclass"/>
 </Library>
