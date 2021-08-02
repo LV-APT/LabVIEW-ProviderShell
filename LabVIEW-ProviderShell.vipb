@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2021-08-02 22:14:44" Modified_Date="2021-08-02 22:26:37" Creator="test" Comments="" ID="6746767181d42a4923feb6ab0e2d01cd">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2021-08-02 22:14:44" Modified_Date="2021-08-02 22:44:35" Creator="test" Comments="" ID="62a38c704e2e59c7bcae5439d9bd7045">
   <Library_General_Settings>
     <Package_File_Name>NEVSTOP_lib_LabVIEW_ProviderShell</Package_File_Name>
-    <Library_Version>0.1.0.2</Library_Version>
+    <Library_Version>0.1.0.3</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>LabVIEW-ProviderShell</Library_Source_Folder>
     <Library_Output_Folder>_vip</Library_Output_Folder>
@@ -45,12 +45,12 @@
       <Toolkit_VIs>
         <LLB>false</LLB>
         <Preserve_Hierarchy>true</Preserve_Hierarchy>
-        <Path>&lt;user.lib&gt;\_NEVSTOP\LabVIEW-ProviderShell</Path>
+        <Path>&lt;user.lib&gt;\_lvAPT\LabVIEW-ProviderShell</Path>
       </Toolkit_VIs>
       <Examples>
         <LLB>false</LLB>
         <Preserve_Hierarchy>true</Preserve_Hierarchy>
-        <Path/>
+        <Path>&lt;application&gt;\examples\lvAPT\LabVIEW-ProviderShell</Path>
       </Examples>
       <Custom_Probes>
         <LLB>false</LLB>
@@ -121,12 +121,14 @@
       </Password_Overrides>
       <Namespace_Overrides>
         <Path>.</Path>
-        <Namespace_Type>Prefix</Namespace_Type>
+        <Namespace_Type>Suffix</Namespace_Type>
         <Namespace/>
       </Namespace_Overrides>
-      <Compile_Exclusions>
-        <Path/>
-      </Compile_Exclusions>
+      <Namespace_Overrides>
+        <Path>LabVIEW-ProviderShell.lvlib</Path>
+        <Namespace_Type>Suffix</Namespace_Type>
+        <Namespace>--lvapt</Namespace>
+      </Namespace_Overrides>
     </Source_Files>
     <License_Agreement_Filepath/>
     <Licensing_and_Activation>
@@ -310,7 +312,7 @@
         <Path>LabVIEW-ProviderShell\LvProviderShellHelper\CleanUp Shell.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C493CA0E33BFE58186E08C64CFDBFCC4</GUID>
+      <GUID>9A2C451BE7B349B13DEF6A812D80E43F</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
