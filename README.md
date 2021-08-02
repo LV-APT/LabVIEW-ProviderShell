@@ -16,6 +16,6 @@ Steps:
 - NEVSTOP-Programming-Palette
 - OpenG Data Library
 - OpenG String Library
-- OpenG Path Library
+- OpenG File Library
 - OpenG Application Library
 - OpenG Error Library
