@@ -14,6 +14,9 @@
 		<Item Name="Example" Type="Folder" URL="../LabVIEW-ProviderShell/Example">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="Example2" Type="Folder" URL="../LabVIEW-ProviderShell/Example2">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
 		<Item Name="LabVIEW-ProviderShell.lvlib" Type="Library" URL="../LabVIEW-ProviderShell/LabVIEW-ProviderShell.lvlib"/>
 		<Item Name="README.md" Type="Document" URL="../README.md"/>
 		<Item Name="Dependencies" Type="Dependencies">
