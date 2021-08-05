@@ -13,6 +13,19 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Property Name="NI.SortType" Type="Int">3</Property>
-	<Item Name="ProviderShellTemplate.vit" Type="VI" URL="../ProviderShellTemplate.vit"/>
-	<Item Name="LvProviderShellHelper.lvclass" Type="LVClass" URL="../LvProviderShellHelper/LvProviderShellHelper.lvclass"/>
+	<Item Name="VIProvider" Type="Folder">
+		<Item Name="VIProviderShell-Template.vit" Type="VI" URL="../VIProviderShellHelper/VIProviderShell-Template.vit"/>
+		<Item Name="VIProviderShellHelper.lvclass" Type="LVClass" URL="../VIProviderShellHelper/VIProviderShellHelper.lvclass"/>
+	</Item>
+	<Item Name="ClassProvider" Type="Folder">
+		<Item Name="_support" Type="Folder">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+			<Item Name="_Safely Recursive File List.vi" Type="VI" URL="../ClassProviderShellHelper/_Safely Recursive File List.vi"/>
+		</Item>
+		<Item Name="Advance" Type="Folder">
+			<Item Name="LoadLvClassesFromLVLIBP.vim" Type="VI" URL="../ClassProviderShellHelper/LoadLvClassesFromLVLIBP.vim"/>
+			<Item Name="LoadLvClassesFromLVCLASS.vim" Type="VI" URL="../ClassProviderShellHelper/LoadLvClassesFromLVCLASS.vim"/>
+		</Item>
+		<Item Name="LoadLvClasses.vim" Type="VI" URL="../ClassProviderShellHelper/LoadLvClasses.vim"/>
+	</Item>
 </Library>
