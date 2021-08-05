@@ -2,6 +2,15 @@
 
 支持 LabVIEW Provider 机制的实现。
 
+## Class Provider
+
+从磁盘路径载入LabVIEW Class, 并转换为ParentClass.
+
+API:
+1. LoadLvClassesFromLVCLASS.vim
+2. LoadLvClassesFromLVLIBP.vim
+## VI Provider
+
 ![Tempate](Documentation/main.png)
 
 Steps:
@@ -11,7 +20,7 @@ Steps:
 3. 拷贝 Template，将所有接线端子放在 Disable Structure 中；
 4. *调用方通过 PrepareProviderCall.vi 修改 Provider 实际执行的 VI 路径。
 
-### 依赖
+## 依赖
 
 - NEVSTOP-Programming-Palette
 - OpenG Data Library
