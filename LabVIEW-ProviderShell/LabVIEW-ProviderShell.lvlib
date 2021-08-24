@@ -13,6 +13,9 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Property Name="NI.SortType" Type="Int">3</Property>
+	<Item Name="_Support" Type="Folder">
+		<Item Name="Wait(ms) If Input Valid.vi" Type="VI" URL="../_Support/Wait(ms) If Input Valid.vi"/>
+	</Item>
 	<Item Name="VIProvider" Type="Folder">
 		<Item Name="VIProviderShell-Template.vit" Type="VI" URL="../VIProviderShellHelper/VIProviderShell-Template.vit"/>
 		<Item Name="VIProviderShellHelper.lvclass" Type="LVClass" URL="../VIProviderShellHelper/VIProviderShellHelper.lvclass"/>
