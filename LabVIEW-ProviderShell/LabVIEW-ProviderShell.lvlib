@@ -27,5 +27,9 @@
 			<Item Name="LoadLvClassesFromLVCLASS.vim" Type="VI" URL="../ClassProviderShellHelper/LoadLvClassesFromLVCLASS.vim"/>
 		</Item>
 		<Item Name="LoadLvClasses.vim" Type="VI" URL="../ClassProviderShellHelper/LoadLvClasses.vim"/>
+		<Item Name="Get LV Class Hierarchy.vim" Type="VI" URL="../ClassProviderShellHelper/Get LV Class Hierarchy.vim"/>
+		<Item Name="Get LV Class Version.vim" Type="VI" URL="../ClassProviderShellHelper/Get LV Class Version.vim"/>
+		<Item Name="Get LV Class Discription.vim" Type="VI" URL="../ClassProviderShellHelper/Get LV Class Discription.vim"/>
+		<Item Name="Get LV Class ParentName.vim" Type="VI" URL="../ClassProviderShellHelper/Get LV Class ParentName.vim"/>
 	</Item>
 </Library>
