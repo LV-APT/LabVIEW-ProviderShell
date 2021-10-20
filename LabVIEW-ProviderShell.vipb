@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2021-08-02 22:14:44" Modified_Date="2021-08-24 14:43:02" Creator="test" Comments="" ID="4c6424f989ac4bb23d83e5b8eb4ffd32">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2021-08-02 22:14:44" Modified_Date="2021-10-20 14:18:27" Creator="test" Comments="" ID="e0507ac5a502f03bf9570deb33bfecef">
   <Library_General_Settings>
     <Package_File_Name>NEVSTOP_lib_LabVIEW_ProviderShell</Package_File_Name>
-    <Library_Version>0.2.0.7</Library_Version>
+    <Library_Version>0.3.0.8</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>LabVIEW-ProviderShell</Library_Source_Folder>
     <Library_Output_Folder>_vip</Library_Output_Folder>
@@ -45,7 +45,7 @@
       <Toolkit_VIs>
         <LLB>false</LLB>
         <Preserve_Hierarchy>true</Preserve_Hierarchy>
-        <Path>&lt;user.lib&gt;\_lvAPT\LabVIEW-ProviderShell</Path>
+        <Path>&lt;user.lib&gt;\_NEVSTOP\LabVIEW-ProviderShell</Path>
       </Toolkit_VIs>
       <Examples>
         <LLB>false</LLB>
@@ -417,7 +417,7 @@
         <Path>LabVIEW-ProviderShell\ClassProviderShellHelper\Get LV Class ParentName.vim</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>2892C74754D6FBB2251358D4679B2EB0</GUID>
+      <GUID>7F5D235DE6B55F9AEA9785F09D6ABEB6</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
