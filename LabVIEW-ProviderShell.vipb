@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2021-08-02 22:14:44" Modified_Date="2021-10-20 14:18:27" Creator="test" Comments="" ID="e0507ac5a502f03bf9570deb33bfecef">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2021-08-02 22:14:44" Modified_Date="2022-01-24 10:00:53" Creator="test" Comments="" ID="d6382eb07dbf53ce2caaa9b5bc1d1b95">
   <Library_General_Settings>
     <Package_File_Name>NEVSTOP_lib_LabVIEW_ProviderShell</Package_File_Name>
-    <Library_Version>0.3.0.8</Library_Version>
+    <Library_Version>0.4.0.11</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>LabVIEW-ProviderShell</Library_Source_Folder>
     <Library_Output_Folder>_vip</Library_Output_Folder>
@@ -17,7 +17,7 @@
   </Library_General_Settings>
   <Advanced_Settings>
     <Package_Dependencies>
-      <Additional_External_Dependencies>nevstop_programming_palette &gt;=2021.5.14.2</Additional_External_Dependencies>
+      <Additional_External_Dependencies>nevstop_programming_palette &gt;=2022.1.23.3</Additional_External_Dependencies>
       <Additional_External_Dependencies>oglib_appcontrol &gt;=4.0.0.5</Additional_External_Dependencies>
       <Additional_External_Dependencies>oglib_error &gt;=4.0.0.12</Additional_External_Dependencies>
       <Additional_External_Dependencies>oglib_file &gt;=4.0.0.20</Additional_External_Dependencies>
@@ -417,7 +417,21 @@
         <Path>LabVIEW-ProviderShell\ClassProviderShellHelper\Get LV Class ParentName.vim</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>7F5D235DE6B55F9AEA9785F09D6ABEB6</GUID>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>LoadLvClassesFromLLB.vim</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>3</Row>
+          <Column>4</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>LabVIEW-ProviderShell\ClassProviderShellHelper\LoadLvClassesFromLLB.vim</Path>
+        <VI_Title/>
+      </Items_Data>
+      <GUID>8A4A9127D22FD2CFC0E1DE52DA144295</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>

@@ -31,6 +31,7 @@
 		<Item Name="Advance" Type="Folder">
 			<Item Name="LoadLvClassesFromLVLIBP.vim" Type="VI" URL="../ClassProviderShellHelper/LoadLvClassesFromLVLIBP.vim"/>
 			<Item Name="LoadLvClassFromLVCLASS.vim" Type="VI" URL="../ClassProviderShellHelper/LoadLvClassFromLVCLASS.vim"/>
+			<Item Name="LoadLvClassesFromLLB.vim" Type="VI" URL="../ClassProviderShellHelper/LoadLvClassesFromLLB.vim"/>
 		</Item>
 		<Item Name="LoadLvClasses.vim" Type="VI" URL="../ClassProviderShellHelper/LoadLvClasses.vim"/>
 		<Item Name="Get LV Class Hierarchy.vim" Type="VI" URL="../ClassProviderShellHelper/Get LV Class Hierarchy.vim"/>
