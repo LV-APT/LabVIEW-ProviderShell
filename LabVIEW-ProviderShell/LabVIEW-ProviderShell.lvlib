@@ -13,29 +13,22 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Property Name="NI.SortType" Type="Int">3</Property>
-	<Item Name="_Support" Type="Folder">
+	<Item Name="_support" Type="Folder">
+		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		<Item Name="__Safely Close LVClassLibraryRef.vi" Type="VI" URL="../_Support/__Safely Close LVClassLibraryRef.vi"/>
+		<Item Name="__Strip Path Extension - String__ogtk.vi" Type="VI" URL="../_Support/__Strip Path Extension - String__ogtk.vi"/>
+		<Item Name="__Recursive File List with Exclude Option.vi" Type="VI" URL="../_Support/__Recursive File List with Exclude Option.vi"/>
 		<Item Name="__Wait(ms) If Input Valid.vi" Type="VI" URL="../_Support/__Wait(ms) If Input Valid.vi"/>
-		<Item Name="__Safely Close Reference.vim" Type="VI" URL="../_Support/__Safely Close Reference.vim"/>
-		<Item Name="_Recursive File List with Exclude Option.vi" Type="VI" URL="../_Support/_Recursive File List with Exclude Option.vi"/>
-		<Item Name="_GetDataTypeDescription.vi" Type="VI" URL="../_Support/_GetDataTypeDescription.vi"/>
+		<Item Name="__File Exists - Scalar__ogtk.vi" Type="VI" URL="../_Support/__File Exists - Scalar__ogtk.vi"/>
 	</Item>
-	<Item Name="VIProvider" Type="Folder">
-		<Item Name="VIProviderShell-Template.vit" Type="VI" URL="../VIProviderShellHelper/VIProviderShell-Template.vit"/>
-		<Item Name="VIProviderShellHelper.lvclass" Type="LVClass" URL="../VIProviderShellHelper/VIProviderShellHelper.lvclass"/>
+	<Item Name="Advance" Type="Folder">
+		<Item Name="LoadLvClassesFromLVLIBP.vim" Type="VI" URL="../ClassProviderShellHelper/LoadLvClassesFromLVLIBP.vim"/>
+		<Item Name="LoadLvClassFromLVCLASS.vim" Type="VI" URL="../ClassProviderShellHelper/LoadLvClassFromLVCLASS.vim"/>
+		<Item Name="LoadLvClassesFromLLB.vim" Type="VI" URL="../ClassProviderShellHelper/LoadLvClassesFromLLB.vim"/>
 	</Item>
-	<Item Name="ClassProvider" Type="Folder">
-		<Item Name="_support" Type="Folder">
-			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-		</Item>
-		<Item Name="Advance" Type="Folder">
-			<Item Name="LoadLvClassesFromLVLIBP.vim" Type="VI" URL="../ClassProviderShellHelper/LoadLvClassesFromLVLIBP.vim"/>
-			<Item Name="LoadLvClassFromLVCLASS.vim" Type="VI" URL="../ClassProviderShellHelper/LoadLvClassFromLVCLASS.vim"/>
-			<Item Name="LoadLvClassesFromLLB.vim" Type="VI" URL="../ClassProviderShellHelper/LoadLvClassesFromLLB.vim"/>
-		</Item>
-		<Item Name="LoadLvClasses.vim" Type="VI" URL="../ClassProviderShellHelper/LoadLvClasses.vim"/>
-		<Item Name="Get LV Class Hierarchy.vim" Type="VI" URL="../ClassProviderShellHelper/Get LV Class Hierarchy.vim"/>
-		<Item Name="Get LV Class Version.vim" Type="VI" URL="../ClassProviderShellHelper/Get LV Class Version.vim"/>
-		<Item Name="Get LV Class Discription.vim" Type="VI" URL="../ClassProviderShellHelper/Get LV Class Discription.vim"/>
-		<Item Name="Get LV Class ParentName.vim" Type="VI" URL="../ClassProviderShellHelper/Get LV Class ParentName.vim"/>
-	</Item>
+	<Item Name="LoadLvClasses.vim" Type="VI" URL="../ClassProviderShellHelper/LoadLvClasses.vim"/>
+	<Item Name="Get LV Class Hierarchy.vim" Type="VI" URL="../ClassProviderShellHelper/Get LV Class Hierarchy.vim"/>
+	<Item Name="Get LV Class Version.vim" Type="VI" URL="../ClassProviderShellHelper/Get LV Class Version.vim"/>
+	<Item Name="Get LV Class Discription.vim" Type="VI" URL="../ClassProviderShellHelper/Get LV Class Discription.vim"/>
+	<Item Name="Get LV Class ParentName.vim" Type="VI" URL="../ClassProviderShellHelper/Get LV Class ParentName.vim"/>
 </Library>

@@ -1,6 +1,7 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="19008000">
 	<Item Name="My Computer" Type="My Computer">
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.tcp.enabled" Type="Bool">false</Property>
@@ -13,6 +14,12 @@
 		<Item Name="_TESTs" Type="Folder" URL="../_TESTs">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="_Support" Type="Folder">
+			<Item Name="__Wait(ms) If Input Valid.vi" Type="VI" URL="../LabVIEW-ProviderShell/_Support/__Wait(ms) If Input Valid.vi"/>
+			<Item Name="__Safely Close Reference.vim" Type="VI" URL="../LabVIEW-ProviderShell/_Support/__Safely Close Reference.vim"/>
+			<Item Name="_Recursive File List with Exclude Option.vi" Type="VI" URL="../LabVIEW-ProviderShell/_Support/_Recursive File List with Exclude Option.vi"/>
+			<Item Name="_GetDataTypeDescription.vi" Type="VI" URL="../LabVIEW-ProviderShell/_Support/_GetDataTypeDescription.vi"/>
+		</Item>
 		<Item Name="Documentation" Type="Folder" URL="../Documentation">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
@@ -21,6 +28,7 @@
 			<Item Name="lv-providershell-example2.lvlib" Type="Library" URL="../LabVIEW-ProviderShell/Example2/lv-providershell-example2.lvlib"/>
 			<Item Name="lv-providershell-example3.lvlib" Type="Library" URL="../LabVIEW-ProviderShell/Example3/lv-providershell-example3.lvlib"/>
 		</Item>
+		<Item Name="LabVIEW-VIProviderShell.lvlib" Type="Library" URL="../LabVIEW-ProviderShell/LabVIEW-VIProviderShell.lvlib"/>
 		<Item Name="LabVIEW-ProviderShell.lvlib" Type="Library" URL="../LabVIEW-ProviderShell/LabVIEW-ProviderShell.lvlib"/>
 		<Item Name="LabVIEW-ProviderShell.vipb" Type="Document" URL="../LabVIEW-ProviderShell.vipb"/>
 		<Item Name="README.md" Type="Document" URL="../README.md"/>
