@@ -22,7 +22,6 @@ Steps:
 
 ## 依赖
 
-- NEVSTOP-Programming-Palette
 - OpenG Data Library
 - OpenG String Library
 - OpenG File Library

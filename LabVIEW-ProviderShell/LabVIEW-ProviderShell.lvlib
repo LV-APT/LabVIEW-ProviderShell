@@ -16,9 +16,8 @@
 	<Item Name="_Support" Type="Folder">
 		<Item Name="__Wait(ms) If Input Valid.vi" Type="VI" URL="../_Support/__Wait(ms) If Input Valid.vi"/>
 		<Item Name="__Safely Close Reference.vim" Type="VI" URL="../_Support/__Safely Close Reference.vim"/>
-		<Item Name="__Safely Recursive File List.vi" Type="VI" URL="../ClassProviderShellHelper/__Safely Recursive File List.vi">
-			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-		</Item>
+		<Item Name="_Recursive File List with Exclude Option.vi" Type="VI" URL="../_Support/_Recursive File List with Exclude Option.vi"/>
+		<Item Name="_GetDataTypeDescription.vi" Type="VI" URL="../_Support/_GetDataTypeDescription.vi"/>
 	</Item>
 	<Item Name="VIProvider" Type="Folder">
 		<Item Name="VIProviderShell-Template.vit" Type="VI" URL="../VIProviderShellHelper/VIProviderShell-Template.vit"/>
