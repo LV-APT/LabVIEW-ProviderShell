@@ -9,10 +9,10 @@ This library implements a plugin mechanism for LabVIEW Class. It loads LabVIEW c
 ### 1.1 API
 
 #### 1.1.1 Key API
-* **`LoadLvClasses.vim`** loads LabVIEW class from the disk path, and convert them to the parent class. 
-    * `Path` specifies the absolute path to the classes to load.
+* **`LoadLvClasses.vim`** loads LabVIEW class from a disk path and converts them to the parent class. 
+    * `Path` specifies the absolute path to the classes to load. **Note**: Folders that start with `_` or `.` will be ignored.
     * `ClassType` specifies the target class type to load. Those classes that are children of the `ClassType` will be loaded, and the returned classes will be converted to `ClassType`.
-    * `milliseconds to wait`specifies the time, in milliseconds, that the function waits for loading the classes. The default is –1, indicating to wait until done.
+    * `milliseconds to wait` specifies the time, in milliseconds, that the function waits for loading the classes. The default is -1, indicating to wait until done.
     * `error in` describes error conditions that occur before this node runs.
     * `Loaded Classes` returns the loaded classes.
     * `error out` contains error information.
@@ -24,7 +24,7 @@ The following utilities provide tools to obtain corresponding LabVIEW class info
 * `Get LV Class ParentName.vim`
 * `Get LV Class Version.vim`
 * `Get LV Class Hierarchy.vim`
-* `Get LV Class Discription.vim`
+* `Get LV Class Description.vim`
 
 ![image](https://user-images.githubusercontent.com/64485819/159438240-49c76ce2-a465-4b62-a20b-239c0590d31b.png)
 

@@ -12,7 +12,7 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="example" Type="Folder">
-			<Item Name="lv-classprovidershell-example.lvlib" Type="Library" URL="../example/lv-classprovidershell-example.lvlib"/>
+			<Item Name="lv-classprovidershell-example.lvlib" Type="Library" URL="../Example/lv-classprovidershell-example.lvlib"/>
 		</Item>
 		<Item Name="src" Type="Folder">
 			<Item Name="LabVIEW-ClassProviderShell.lvlib" Type="Library" URL="../src/LabVIEW-ClassProviderShell.lvlib"/>
