@@ -4,11 +4,12 @@
 
 ## 1 Class Provider: LabVIEW-ClassProviderShell
 
-This library implements a plugin mechanism for LabVIEW Class. It loads LabVIEW classes from a disk path, and convert them to the parent class.
+This library implements a plugin mechanism for LabVIEW Class. It loads LabVIEW classes from a disk path and converts them to the parent class.
 
 ### 1.1 API
 
 #### 1.1.1 Key API
+
 * **`LoadLvClasses.vim`** loads LabVIEW class from a disk path and converts them to the parent class. 
     * `Path` specifies the absolute path to the classes to load. **Note**: Folders that start with `_` or `.` will be ignored.
     * `ClassType` specifies the target class type to load. Those classes that are children of the `ClassType` will be loaded, and the returned classes will be converted to `ClassType`.
@@ -20,15 +21,19 @@ This library implements a plugin mechanism for LabVIEW Class. It loads LabVIEW c
 ![image](https://user-images.githubusercontent.com/64485819/159438054-01573c31-d9a3-4a3b-a03d-90ee7da41d6e.png)
 
 #### 1.1.2 Utilities
+
 The following utilities provide tools to obtain corresponding LabVIEW class information.
+
 * `Get LV Class ParentName.vim`
 * `Get LV Class Version.vim`
 * `Get LV Class Hierarchy.vim`
 * `Get LV Class Description.vim`
 
-![image](https://user-images.githubusercontent.com/64485819/159438240-49c76ce2-a465-4b62-a20b-239c0590d31b.png)
+![image](https://user-images.githubusercontent.com/64485819/159635100-98c5ceac-2c04-4942-b827-c5c0d181764a.png)
+
 
 ### 1.2 Example
+
 The `Calculator Example` provided by the library demonstrates the plugin mechanism of LabVIEW Class Provider. The math functions of this calculator are loaded dynamically as plugins. Therefore, the calculator has very good scalability.
 
 <!-- ![image](https://user-images.githubusercontent.com/64485819/159439155-47f6217d-8029-4847-8ed7-6d0259d904ce.png)
@@ -39,16 +44,11 @@ The `Calculator Example` provided by the library demonstrates the plugin mechani
 ### 1.3 Distribution Consideration
 
 This library supports the following forms of code distribution,
-1. The shell class distributed as source code.
-2. The shell class distributed as *.lvlibp.
 
-In both situation, the plugin classes can be distributed as source code, *.lvlibp, or a mix of both. Notice that the plugin classes must inherit the shell class, whether as source code or as *.lvlibp. In usual situation, the shell class is often distributed as *.lvlibp, so that the shell functions are fixed and uncontaminated. And after the shell being released the plugins can be freely designed by different developers.
+1. The shell class is distributed as source code (`*.lvclass`, `*.llb`).
+2. The shell class is distributed as a packed library (`*.lvlibp`).
 
-<!-- | Shell Class   | Plugin Classes             | Notes    |
-|---------------|----------------------------|----------|
-| *.lvclass     | *.lvclass, *.llb           |          |
-| *.lvlibp      | *.lvclass, *.llb, *.lvlibp | The children classes inherit the class in *.lvlibp | -->
-
+In both situations, the plugin classes can be distributed as source code, packed library, or a mix of both. Notice that the plugin classes must inherit the shell class, whether as source code or as a packed library. In the usual situation, the shell class is often distributed as a packed library (`*.lvlibp`), so that the shell functions are fixed and uncontaminated. And after the shell is released the plugins can be freely designed by different developers.
 
 ------
 
